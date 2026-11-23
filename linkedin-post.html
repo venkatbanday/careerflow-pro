@@ -117,4 +117,4 @@ $("#cp2").onclick=()=>cp($("#post").value,"Post text copied.");
 $("#op").onclick=()=>{const t=$("#post").value;if(!t.trim()){alert("Write or choose a post first.");return}cp(t," Text copied. If LinkedIn opens empty, paste with Ctrl+V.");const q=encodeURIComponent(t);window.open("https://www.linkedin.com/feed/?shareActive=true"+(q.length<1800?"&text="+q:""),"_blank","noopener")};
 $("#dl").onclick=()=>$("#cvs").toBlob(b=>{const a=document.createElement("a");a.href=URL.createObjectURL(b);a.download="linkedin-post.png";a.click()});
 who();img();card2();
-</script><script src="studio-nav.js" defer></script></body></html>
+</script><script src="linkedin-enhance.js" defer></script><script src="studio-nav.js" defer></script></body></html>

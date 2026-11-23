@@ -1,3 +1,31 @@
+# CareerFlow Pro — Free Career Toolkit
+
+![CareerFlow Pro banner](careerflow-banner.png)
+
+**Build your resume. Track your jobs. Grow your career.**
+
+> **Important:** The app's evidence-backed requirement coverage and resume keyword coverage are transparent estimates, **not official ATS scores**. No third-party application can guarantee 90% or 100% on an employer’s ATS or guarantee interviews. Only confirm demonstrable skills and achievements.
+
+## Latest release — Enhanced resume matching and LinkedIn studio
+
+- **Job requirement analysis:** filters out job-board clutter and extracts role-relevant requirements with priorities.
+- **Editable proof editor:** each matched/missing requirement has a confirmation checkbox and editable evidence field; add requirements manually, correct facts, and rerun.
+- **Live recalculation:** separate evidence-backed requirement coverage and keyword coverage of the editable resume.
+- **Evidence-led rewrite:** reorders existing experience, adds confirmed evidence and preserves existing role history; never fabricates qualifications to increase a number.
+- **Editable resume:** easy line editor and full text editor, plus existing Word/PDF/text downloads and styling.
+- **LinkedIn content studio:** 3 editable posts without an API key, optional Gemini writing, post-to-image workflow and downloadable image/banner. Actual LinkedIn posting requires manual confirmation on LinkedIn.
+- **Website banner:** `careerflow-banner.png` included for README and landing page. The banner’s 100% ATS motif is an aspirational visual, not a validation claim.
+
+### How to update your GitHub Pages website
+
+Upload **all files** in this folder to the repository root. Keep `.js`, `.css`, `.html` and `careerflow-banner.png` together. GitHub Settings → Pages → Deploy from branch → `main` → `/ (root)`. No build or install needed.
+
+### Security and data
+
+The local tools store supported information in the browser. If you use Gemini, your input is sent to the Gemini API with your supplied key; avoid confidential data. A browser-exposed API key is not appropriate for a production multi-user service: use a secure backend for public commercial deployment.
+
+---
+
 <div align="center">
 
 # CareerFlow Pro
